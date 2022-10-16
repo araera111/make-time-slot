@@ -25,12 +25,10 @@
   "targets": {
     "main": {
       "context": "node",
-      "includeNodeModules": true,
       "optimize": true
     },
     "module": {
       "context": "node",
-      "includeNodeModules": true,
       "optimize": true,
       "distDir": "./dist/module.js"
     }
