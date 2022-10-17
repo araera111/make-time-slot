@@ -1,6 +1,6 @@
 {
   "name": "make-time-slot",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "",
   "source": "src/main.ts",
   "main": "dist/main.js",
@@ -25,12 +25,10 @@
   "targets": {
     "main": {
       "context": "node",
-      "includeNodeModules": true,
       "optimize": true
     },
     "module": {
       "context": "node",
-      "includeNodeModules": true,
       "optimize": true,
       "distDir": "./dist/module.js"
     }
@@ -60,10 +58,9 @@
     "typescript": "^4.8.4"
   },
   "dependencies": {
-    "date-fns": "^2.29.3",
     "rambda": "^7.3.0"
   },
   "volta": {
-    "node": "16.17.0"
+    "node": "16.18.0"
   }
 }
