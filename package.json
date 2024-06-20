@@ -1,6 +1,6 @@
 {
   "name": "make-time-slot",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "",
   "source": "src/main.ts",
   "main": "dist/main.js",
