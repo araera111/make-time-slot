@@ -51,6 +51,10 @@ export const makeTimeSlot = (
 
 	const rangeMax = isLt ? sub : sub + 1;
 
+	if (Number.isNaN(rangeMax)) {
+		return []
+	}
+
 	const times = range(0, rangeMax);
 
 	let results: number[] = [];

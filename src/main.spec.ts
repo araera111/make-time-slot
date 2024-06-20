@@ -56,6 +56,14 @@ describe('makeTimeSlot', () => {
 		const result = [1045, 1115, 1145, 1215];
 		expect(makeTimeSlot(beginTime, endTime, step, false)).toStrictEqual(result);
 	});
+
+	it("case8 0,0,0...", () => {
+		const beginTime = 0;
+		const endTime = 0;
+		const step = 0;
+		const result:number[] = [];
+		expect(makeTimeSlot(beginTime, endTime, step, false)).toStrictEqual(result);
+	})
 });
 
 describe('getTakeHH', () => {
